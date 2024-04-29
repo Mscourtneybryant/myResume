@@ -1,0 +1,77 @@
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mySkills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.workHistory{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+li {
+    text-align: left;
+}
+
+ul{
+    align-items: start;
+    font-family: "Sintony", sans-serif;
+    font-size: 14px;
+}
+
+.sintony-regular {
+    font-family: "Sintony", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .sintony-bold {
+    font-family: "Sintony", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+  h1{
+    font-family: "Sintony", sans-serif;
+  }
+
+  h2{
+    font-family: "Sintony", sans-serif;
+    font-size: 16px;
+  }
+
+  p{
+    font-family: "Sintony", sans-serif;
+    font-size: 13px;
+  }
+
