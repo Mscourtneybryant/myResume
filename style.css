@@ -1,42 +1,129 @@
 .contactInfo{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: right;
+    align-items: end;
+    text-align: right;
+    margin-right: 180px;
+    line-height: 20px;
+
+}
+
+.fullName{
+  background-color: rgb(19, 104, 130);
+  height: 45px;
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  margin-right: 180px;
+  margin-left: 180px;
+  padding-top: 25px;
+  padding-left: 10px;
+  
 }
 
 .summary{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    align-items: start;
+    text-align: left;
+    border-bottom: solid;
+    border-color:  rgb(19, 104, 130);
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.summaryPara{
+  font-size: 16px;
+  line-height: 20px;;
+}
+
+.objective{
+  color:   rgb(19, 104, 130);
+  font-size: 16px;
+  margin-left: 60px;
 }
 
 .mySkills{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    flex-direction: row;
+    align-items: left;
+    text-align: left;
+    margin-left: 180px;
+   
 }
+
+.skillsHeading{
+  color:   rgb(19, 104, 130);
+  font-size: 16px;
+  margin-left: 190px;
+}
+ .skillsItems{
+  display: flex;
+  flex-direction: column;
+  margin-left: 550px;
+  margin-top: -40px;
+  line-height: 20px;
+ }
+
+ #skillitems{
+  border-bottom: solid;
+  border-color:  rgb(19, 104, 130);  
+  margin-left: 180px;
+  margin-right: 180px;
+}
+ 
+
 
 .workHistory{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    padding-left:200px;  
+    justify-content: left;
+    align-items: left;
+    border-bottom: solid;
+    border-color:  rgb(19, 104, 130);  
+    margin-left: 150px;
+    margin-right: 180px;
+    line-height: 25px;
+}
+
+.workItem{
+  list-style-type: none;
+}
+
+
+.workHistoryTitle{
+  color:   rgb(19, 104, 130);
+  font-size: 16px;
+  margin-right: 68px;
 }
 
 .education{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-left: 300px;
+    justify-content: left;
+    align-items: left;
     text-align: center;
+    color:   rgb(19, 104, 130);
+  
 }
+
+.educationList{
+  display: flex;
+  flex-direction: column;
+  padding-left:200px;  
+  justify-content: right;
+  margin-left: 380px;
+  margin-right: 180px;
+  margin-top: -60px;
+  line-height: 25px;
+}
+
+.gompers{
+  text-decoration-style: none;
+}
+
 
 li {
     text-align: left;
@@ -48,21 +135,72 @@ ul{
     font-size: 14px;
 }
 
-.sintony-regular {
-    font-family: "Sintony", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .sintony-bold {
-    font-family: "Sintony", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
 
   h1{
-    font-family: "Sintony", sans-serif;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
 
   h2{
