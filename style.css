@@ -6,7 +6,10 @@
     text-align: right;
     margin-right: 180px;
     line-height: 20px;
+}
 
+.email{
+  color: rgb(19, 104, 130);
 }
 
 .fullName{
@@ -19,7 +22,6 @@
   margin-left: 180px;
   padding-top: 25px;
   padding-left: 10px;
-  
 }
 
 .summary{
@@ -43,6 +45,7 @@
   color:   rgb(19, 104, 130);
   font-size: 16px;
   margin-left: 60px;
+  font-weight: bold;
 }
 
 .mySkills{
@@ -50,15 +53,16 @@
     flex-direction: row;
     align-items: left;
     text-align: left;
-    margin-left: 180px;
-   
+    margin-left: 180px;  
 }
 
 .skillsHeading{
   color:   rgb(19, 104, 130);
   font-size: 16px;
   margin-left: 190px;
+  font-weight: bold;
 }
+
  .skillsItems{
   display: flex;
   flex-direction: column;
@@ -97,16 +101,16 @@
   color:   rgb(19, 104, 130);
   font-size: 16px;
   margin-right: 68px;
+  font-weight: bold;
 }
 
 .education{
     display: flex;
-    margin-left: 300px;
+    margin-left: 365px;
     justify-content: left;
     align-items: left;
     text-align: center;
     color:   rgb(19, 104, 130);
-  
 }
 
 .educationList{
@@ -116,12 +120,29 @@
   justify-content: right;
   margin-left: 380px;
   margin-right: 180px;
-  margin-top: -60px;
+  margin-top: -47px;
   line-height: 25px;
+ 
+}
+
+.educationTitle{
+  color:   rgb(19, 104, 130);
+  font-size: 16px;
+  margin-right: 200px;
+  font-weight: bold;
+}
+
+.educationDivLine{
+  border-bottom: solid;
+  border-color: rgb(19, 104, 130);
+  margin-left: 150px;
+  margin-right: 180px;
+  
 }
 
 .gompers{
   text-decoration-style: none;
+  margin-left: -39px;
 }
 
 
